@@ -1,9 +1,10 @@
 <script setup>
-import StatusTable from '../components/StatusTable.vue';
+import WholePanel from './layouts/wholePanel.vue';
+
 
 </script>
 
 <template>
-  <StatusTable />
+  <WholePanel />
 </template>
 

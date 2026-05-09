@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@font-face {
+font-family: 'Roboto';
+src: url('../../public/fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype'); font-weight: 100 900;
+    font-stretch: 75% 125%;
+}
+@font-face{font-family: 'AudioWide'; src: url('../../public/fonts/Audiowide-Regular.ttf') format('truetype');}
+@font-face {
+    font-family: 'Sarabun';
+    src: url('../../public/fonts/Sarabun-Medium.ttf')
+    format('truetype');
+}
+@font-face {
+    font-family: 'Sen';
+    src: url('../../public/fonts/Sen-VariableFont_wght.ttf')
+    format('truetype'); font-weight: 100 900;
+    font-stretch: 75% 125%;
+}
+body{
+    background-color: oklch(98.4% 0.019 200.873);
+    font-family: 'Sarabun';
+}
+h1{
+    font-family: 'Sen';
+}
+td{
+    text-align: center;
+}
+tr{
+    margin: 3%;
+}
+.statusCell{
+    text-align: left;
+}

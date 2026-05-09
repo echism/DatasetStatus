@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ds-001",
+    "name": "IADRC_Cohort_MRI_2024",
+    "status": "complete",
+    "size_bytes": 412058419200,
+    "updated_at": "2026-04-28T14:32:00Z",
+    "owner": "andrea.conway@iu.edu"
+  },
+  {
+    "id": "ds-002",
+    "name": "Proteomics_Batch_17",
+    "status": "processing",
+    "size_bytes": 8589934592,
+    "updated_at": "2026-05-05T09:15:00Z",
+    "owner": "charles.brandt@iu.edu"
+  },
+  {
+    "id": "ds-003",
+    "name": "CMG_Variant_Export_Q1",
+    "status": "failed",
+    "size_bytes": 2147483648,
+    "updated_at": "2026-05-04T23:58:00Z",
+    "owner": "karthiek.duggirala@iu.edu"
+  },
+  {
+    "id": "ds-004",
+    "name": "Genomics_Control_Panel_v3",
+    "status": "queued",
+    "size_bytes": 107374182400,
+    "updated_at": "2026-05-06T08:00:00Z",
+    "owner": "andrea.conway@iu.edu"
+  },
+  {
+    "id": "ds-005",
+    "name": "DICOM_QC_Rescan_2025",
+    "status": "complete",
+    "size_bytes": 966367641600,
+    "updated_at": "2026-03-12T16:45:00Z",
+    "owner": "charles.brandt@iu.edu"
+  },
+  {
+    "id": "ds-006",
+    "name": "Metabolomics_Pilot_Feb",
+    "status": "queued",
+    "size_bytes": 536870912,
+    "updated_at": "2026-05-06T07:30:00Z",
+    "owner": "karthiek.duggirala@iu.edu"
+  }
+]

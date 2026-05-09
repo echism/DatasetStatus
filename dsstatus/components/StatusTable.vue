@@ -4,9 +4,6 @@ import FilterButton from './FilterButton.vue';
 import { ref, computed } from 'vue';
 const filterOptions=[{"label":'All',"by":['complete','processing','queued','failed']},{"label":'Complete',"by":['complete']},{"label":'Active',"by":['queued','processing']},{"label":'Failed',"by":['failed']}]
 const selectedFilter = ref(filterOptions[0]) 
-function getBaseLog(x, y) {
-  return Math.floor(Math.log(y) / Math.log(x));
-}
 const filteredItems = computed(() => {
   return jsonData.filter(item =>
     selectedFilter.value.by.includes(item.status)

@@ -4,8 +4,8 @@ import StatusTable from '../../components/StatusTable.vue';
 
 </script>
 <template>
-    <status class="max-w-7xl">
+    <section class="max-w-7xl">
         <HeaderTitle />
         <StatusTable />
-    </status>
+    </section>
 </template>

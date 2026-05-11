@@ -52,9 +52,9 @@ function dateConvert(dt){
         <div class="bg-mauve-600 w-full py-1 px-3">
             <fieldset>
                 <legend class="sr-only">Filter datasets</legend>
-                <filters-list class="flex flex-col md:flex-row px-2 py-2 md:gap-2">
+                <section class="flex flex-col md:flex-row px-2 py-2 md:gap-2">
                     <FilterButton v-for="item in filterOptions" :key="item.label" :label="item.label" @click="selectedFilter=item" />
-                </filters-list>
+                </section>
             </fieldset>
         <label for="search" class="sr-only">Search datasets</label>
         <input class="shadow-md shadow-sky-950 rounded-sm mx-4 bg-olive-100 " type="text" v-model="searchQuery" placeholder="Search Datasets" />
